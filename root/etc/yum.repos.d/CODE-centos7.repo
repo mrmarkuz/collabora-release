@@ -2,7 +2,9 @@
 # collabora repo
 #
 
-[collaboraoffice.com_repos_CollaboraOnline_CODE-centos7]
+[CODE-centos7]
 name=added from: https://www.collaboraoffice.com/repos/CollaboraOnline/CODE-cen$
 baseurl=https://www.collaboraoffice.com/repos/CollaboraOnline/CODE-centos7
 enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CODE-centos7
